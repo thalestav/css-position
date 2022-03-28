@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ex002-section{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-between;
+}
+.ex002-container-01, .ex002-container-02{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+
+}
+.ex002-section .ex002-box01, .ex002-box02, .ex002-box03, .ex002-box04 {
+    border: 1px solid black;
+    background-color: black;
+    display: flex;
+    width: 200px;
+    height: 200px;
+    margin: 2px;
+}
+/*ex003*/
+.ex003-body{
+    background-color: gray;
+}
+.ex003-section{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.ex003-div01, .ex003-div02{
+    border: 2px solid black;
+    margin: 70px;
+    height: 400px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+.ex003-div01{
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    text-align:end;
+    text-transform: uppercase;
+}
+.ex003-div02{
+    overflow-y: auto;
+}
+
+/*ex004*/
+.ex004-body{
+    background-color: lightgray;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    justify-content: space-between;
+}
+.ex004-section-01 div {
+    width: 90px;
+    height: 90px;
+    border: 1px solid black;
+    background-color: black;
+    position: absolute;
+    color: white;
+}
+.ex004-section-02{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.ex004-section-02 div {
+    width: 90px;
+    height: 90px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    position: absolute;
+}
+
+.ex004-section-01 div:nth-child(2) {
+    left: 95px;
+}
+.ex004-section-01 div:nth-child(3) {
+    left: 190px;
+    
+}
+.ex004-section-01 div:nth-child(4) {
+    top: 95px;
+}
+.ex004-section-01 div:nth-child(5) {
+    left: 95px;
+    top: 95px;
+}
+.ex004-section-01 div:nth-child(6) {
+    top: 190px;
+}
+.ex004-section-02 div:nth-child(1) {
+    bottom: 190px;
+}
+.ex004-section-02 div:nth-child(2) {
+    right: 95px;
+    bottom: 95px;
+}
+.ex004-section-02 div:nth-child(3) {
+    bottom: 95px;
+}
+.ex004-section-02 div:nth-child(4) {
+    right: 190px;
+}
+.ex004-section-02 div:nth-child(5) {
+    right: 95px;
+}
+
+
+
